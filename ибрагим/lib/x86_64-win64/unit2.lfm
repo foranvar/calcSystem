@@ -1,0 +1,69 @@
+object Form2: TForm2
+  Left = 617
+  Height = 335
+  Top = 172
+  Width = 541
+  Caption = 'Form2'
+  ClientHeight = 335
+  ClientWidth = 541
+  Color = clForm
+  DesignTimePPI = 134
+  LCLVersion = '1.8.2.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 33
+    Top = 16
+    Width = 112
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 232
+    Height = 33
+    Top = 16
+    Width = 112
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 35
+    Top = 96
+    Width = 105
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object ComboBox1: TComboBox
+    Left = 152
+    Height = 35
+    Top = 16
+    Width = 56
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '+'
+      '-'
+      '*'
+      '/'
+    )
+    TabOrder = 3
+    Text = '+'
+  end
+  object Edit3: TEdit
+    Left = 408
+    Height = 33
+    Top = 16
+    Width = 112
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 368
+    Height = 30
+    Top = 19
+    Width = 22
+    Caption = '='
+    Font.Height = -26
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+end
